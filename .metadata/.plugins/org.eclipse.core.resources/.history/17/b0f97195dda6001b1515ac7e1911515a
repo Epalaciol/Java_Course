@@ -1,0 +1,27 @@
+package es.pildoras.IoC;
+
+public class DirectorEmpleado implements Empleados {
+	
+	//Creacion de camppo ripo creacionInforme
+	
+	private CreacionInformes infomeNuevo;
+	
+	public DirectorEmpleado(CreacionInformes informeNuevo) {
+		// TODO Auto-generated constructor stub
+		
+		this.infomeNuevo= informeNuevo
+	}
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Gestionar la plantilla de la empresa";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

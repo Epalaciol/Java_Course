@@ -1,0 +1,40 @@
+package es.pildoras.IoC;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class UsoDemoSingletoPrototype {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext2.xml");
+		
+		//Peticion de beans al contenedor
+		
+		SecretarioEmpleado Maria =contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
+		
+		
+		DirectorEmpleado Juan = contexto.getBean("miEmpleado", DirectorEmpleado.class);		
+		
+		System.out.println(Juan.getTareas());
+		
+		System.out.println(Juan.getInforme());
+		
+		System.out.println(Juan.getEmail());
+		
+		System.out.println(Juan.getNombreEmpresa());
+		
+//		
+//		System.out.println(Maria.getTareas());
+//		
+//		System.out.println(Maria.getInforme());
+//		
+//		System.out.println(Maria.getEmail());
+//
+//		System.out.println(Maria.getNombreEmpresa());
+//		
+		contexto.close();
+
+	}
+
+}

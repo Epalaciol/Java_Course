@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.JefeEmpleado"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.CreacionInformes"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.PrivateKeyResolver"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.SecretarioEmpleado"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.DirectorEmpleado"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.Empleados"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.InformeFinancieroTrim1"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.CreacionInformeFinanciero"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.InformeFinancieroDtoCompras"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.EmpleadosConfig"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.Empleados"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="es.pildoras.pruebaannotations.DirectorFinanciero"/>
+</qualifiedTypeNameHistroy>

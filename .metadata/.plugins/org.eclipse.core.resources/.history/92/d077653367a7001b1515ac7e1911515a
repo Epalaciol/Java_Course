@@ -1,0 +1,22 @@
+package es.pildoras.pruebaannotations;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class UsoAnnotations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//leer el xml de confoguracion
+		ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		// pedir el bean al contenedoe
+		
+		
+		// usar el  bean
+		
+		//cerrar el contexto 
+
+	}
+
+}
